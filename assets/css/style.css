@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #3a3a3a
+    color: #3a3a3a;
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -47,6 +47,7 @@ main{
     height: 600px;
     width: 100%;
     background: url("../image/hero-image.webp") no-repeat center center/cover;
+   
 }
 
 #cover-text{
@@ -164,3 +165,52 @@ nav {
     }
 }
 
+#reasons{
+    width: 90%;
+    margin: 20px auto;
+   
+    
+}
+
+#reasons > h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+   
+}
+
+#benefits{
+    line-height: 20px;
+}
+
+#benefits-physical, #benefits-mental {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits hr{
+     border-top: 1px solid #3a3a3a;
+     margin: 5px; 0;
+}
+
+#circle-cover-bg{
+    background: url('../image/reasons-image.webp') no-repeat center center/cover;
+    height: 90vw;
+    width: 90vw;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 0 auto 20px;
+
+}
+
+#benefits-image{
+    display: flex;
+    align-items: center;
+    justify-conent: center;
+}
